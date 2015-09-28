@@ -50,12 +50,12 @@ var chatRef = new Firebase('https://remielevangelio.firebaseio.com/');
         var picture = message.userdata.facebook.profileImageURL;
         var name = '<a href="https://www.facebook.com/'+message.userdata.facebook.id+'">'+name+'</a>';
 
-        interval = setInterval(changeTitle, 700);
+        
         displayChatMessage(name, message.text, picture);
 
     });
 
-    
+    interval = setInterval(changeTitle, 700);
 
 
     function displayChatMessage(name, text, picture) {
