@@ -1,104 +1,99 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Remiel Evangelio - Project portfolio</title>
-		<meta name="description" content="Get to know @thespotterboy" />
-		<meta name="keywords" content="freelancer, freelance, web developer, web, github" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/component2.css" />
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/set1.css" />
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chat Application</title>
 
-		<script src="js/modernizr.custom.js"></script>
-	</head>
-	<body>
-		<div class="container">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- jQuery -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
 
-			<div id="splitlayout" class="splitlayout">
-				<div class="intro">
-					<div class="side side-left">
-						<div class="intro-content">
-							<div class="profile"><img src="img/remiel.png" alt="profile1"></div>
-							<h1>
-								<span>Remiel Evangelio</span>
-								<span>Website Engineer</span>
-							</h1>
-						</div>
-						<div class="overlay"></div>
+	<!-- Firebase -->
+	<script src='https://cdn.firebase.com/js/client/2.1.0/firebase.js'></script>
+
+	<!-- Firechat -->
+	<link rel='stylesheet' href='https://cdn.firebase.com/libs/firechat/2.0.1/firechat.min.css' />
+
+	<!-- Main style -->
+	<link rel="stylesheet" href="css/style.css">
+	<script src='https://cdn.firebase.com/libs/firechat/2.0.1/firechat.min.js'></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	
+    
+
+
+	<div class="container">
+		<!-- Main banner -->
+		<div class="row">
+			<div class="header">
+				<div class="col-xs-12">
+					<img src="images/raveph.jpg" alt="">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="panel panel-default">
+					<div class="panel-heading">Latest events</div>
+					<div class="panel-body">
+						<label for="">Sep 26, 2015</label>
+						Ultra PH
 					</div>
-					<div class="side side-right">
-						<div class="intro-content">
-							<div class="profile"><img src="img/wordpress.png" alt="profile2" style="background: #F5F5F5;"></div>
-							<h1><span>Portfolio</span><span>Websites, etc.</span></h1>
-						</div>
-						<div class="overlay"></div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">Links</div>
+					<div class="panel-body">
+						<a href="https://www.facebook.com/groups/raveph/">RavePH group</a>
 					</div>
-				</div><!-- /intro -->
-				<div class="page page-right">
-					<div class="page-inner">
-						<section>
-							<h2>Projects</h2>
-							<p>Here are the list of my amazing projects. All created using Wordpress.</p>
-							<p>
-								<ul class="list-thumb">
-									<!-- <li><img src="img/websites/project-perthcityglass.png" alt=""/></li> -->
-									<!-- <li><img src="img/websites/project-tbone.png" alt=""/></li> -->
-									<!-- <li><img src="img/websites/project-halfpriceshutters.png" alt=""/></li> -->
-									<!-- <li><img src="img/websites/project-thaispice.png" alt=""/></li> -->
-									<!-- <li><img src="img/websites/project-wildwestfl.png" alt=""/></li> -->
-									<!-- <li><img src="img/websites/project-wssafety.png" alt=""/></li> -->
-									<li><img src="img/websites/project-duranschulze.png" alt=""/></li>
-									<!-- <li><img src="img/websites/project-booragoon.png" alt=""/></li> -->
-									<!-- <li><img src="img/websites/project-reigninnovations.png" alt=""/></li> -->
-									<!-- <li><img src="img/websites/project-britonhouse.png" alt=""/></li> -->
-									<!-- <li><img src="img/websites/project-lajoliecheese.png" alt=""/></li> -->
-									<!-- <li><img src="img/websites/project-distancetracker.png" alt=""/></li> -->
-									<li><img src="img/websites/project-philippinearena.png" alt=""/></li>
-									<li><img src="img/websites/project-healthynails.png" alt=""/></li>
-									<li><img src="img/websites/project-coastbuild.png" alt=""/></li>
-									<li><img src="img/websites/project-circuit.png" alt=""/></li>
-									<li><img src="img/websites/project-danielmagazine.png" alt=""/></li>
-									<li><img src="img/websites/project-spiral.png" alt=""/></li>
-									<li><img src="img/websites/project-soak.png" alt=""/></li>
-									<li><img src="img/websites/project-gayexpress.png" alt=""/></li>
-									<li><img src="img/websites/project-maverickbydesign.png" alt=""/></li>
-									<li><img src="img/websites/project-powerandbeauty.png" alt=""/></li>
-									<li><img src="img/websites/project-gourmetsociety.png" alt=""/></li>
-								</ul>
-							</p>
-						</section>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="panel panel-default">
+					<div class="panel-heading">Lobby</div>
+					<div class="panel-body">
+						<div id='messagesDiv'>
+							<span class="loading">Loading messages...</span>
+						</div>
+						
+						<div class="row">
+							<div class="col-xs-9">
 
-					</div><!-- /page-inner -->
-				</div><!-- /page-right -->
-				<div class="page page-left">
-					<div class="page-inner">
-						<section>
-							<h2>About me</h2>
-							<p>Hi, my name is Remiel and I'm a web developer.</p>
-							<p><b>Email: </b> rmlevangelio@gmail.com</p>
-							<p><b>Mobile Number: </b> 09265753376</p>
-							<p><b>Skype: </b> rmlevangelio</p>
-						</section>
-					</div><!-- /page-inner -->
-				</div><!-- /page-left -->
-				<a href="#" class="back back-right" title="back to intro">&rarr;</a>
-				<a href="#" class="back back-left" title="back to intro">&larr;</a>
-				
-			</div><!-- /splitlayout -->
+								<input type='text' id='nameInput' placeholder='Name' class="hidden">
+   								<input type='text' id='messageInput' placeholder='Type your message here...' class="form-control">
+							</div>
+							<div class="col-xs-3">
+								<button id="submitMessage" class="btn btn-primary btn-block">Send</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="panel panel-default">
+					<div class="panel-heading">Profile</div>
+					<div class="panel-body">
+						<div class="login-div">
+							<a href="#" class="btn-social" data-provider="facebook">Login with facebook</a>
+						</div>	
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">Created by:</div>
+					<div class="panel-body">
+						&copy; <a href="https://www.facebook.com/thespotterboy">Remiel C. Evangelio</a>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-					<div id="large-header" class="large-header" style="position: absolute; z-index: 10; bottom: 0;">
-			            <canvas id="demo-canvas"></canvas>
-			        </div>
-		</div><!-- /container -->
-		<script src="js/classie.js"></script>
-		<script src="js/cbpSplitLayout.js"></script>
-		<script src="js/pathLoader.js"></script>
-		<script src="js/main.js"></script>
-	</body>
+
+	<script src="js/script.js"></script>	
+</body>
 </html>
