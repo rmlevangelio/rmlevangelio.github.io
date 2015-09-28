@@ -50,7 +50,7 @@ var chatRef = new Firebase('https://remielevangelio.firebaseio.com/');
         var picture = message.userdata.facebook.profileImageURL;
         var name = '<a href="https://www.facebook.com/'+message.userdata.facebook.id+'">'+name+'</a>';
         displayChatMessage(name, message.text, picture);
-
+        interval = setInterval(changeTitle, 700);
     });
 
     
@@ -67,8 +67,6 @@ var chatRef = new Firebase('https://remielevangelio.firebaseio.com/');
         document.title = isOldTitle ? oldTitle : newTitle;
         isOldTitle = !isOldTitle;
     }
-
-    interval = setInterval(changeTitle, 700);
 
     $(window).focus(function () {
         clearInterval(interval);
