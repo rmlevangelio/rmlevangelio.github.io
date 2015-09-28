@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chat Application</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- jQuery -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+
+	<!-- Firebase -->
+	<script src='https://cdn.firebase.com/js/client/2.1.0/firebase.js'></script>
+
+	<!-- Firechat -->
+	<link rel='stylesheet' href='https://cdn.firebase.com/libs/firechat/2.0.1/firechat.min.css' />
+
+	<!-- Main style -->
+	<link rel="stylesheet" href="css/style.css">
+	<script src='https://cdn.firebase.com/libs/firechat/2.0.1/firechat.min.js'></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	
+    
+
+
+	<div class="container">
+		<!-- Main banner -->
+		<div class="row">
+			<div class="header">
+				<div class="col-xs-12">
+					<img src="images/raveph.jpg" alt="">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="panel panel-default">
+					<div class="panel-heading">Latest events</div>
+					<div class="panel-body">
+						<label for="">Sep 26, 2015</label>
+						Ultra PH
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">Links</div>
+					<div class="panel-body">
+						<a href="https://www.facebook.com/groups/raveph/">RavePH group</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="panel panel-default">
+					<div class="panel-heading">Lobby</div>
+					<div class="panel-body">
+						<div id='messagesDiv'>
+							<span class="loading">Loading messages...</span>
+						</div>
+						
+						<div class="row">
+							<div class="col-xs-9">
+
+								<input type='text' id='nameInput' placeholder='Name' class="hidden">
+   								<input type='text' id='messageInput' placeholder='Type your message here...' class="form-control">
+							</div>
+							<div class="col-xs-3">
+								<button id="submitMessage" class="btn btn-primary btn-block">Send</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="panel panel-default">
+					<div class="panel-heading">Profile</div>
+					<div class="panel-body">
+						<div class="login-div">
+							<a href="#" class="btn-social" data-provider="facebook">Login with facebook</a>
+						</div>	
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">Created by:</div>
+					<div class="panel-body">
+						&copy; <a href="https://www.facebook.com/thespotterboy">Remiel C. Evangelio</a>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/script.js"></script>	
+</body>
+</html>
