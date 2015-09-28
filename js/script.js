@@ -1,1 +1,125 @@
-var _0x17a6=["\x68\x74\x74\x70\x73\x3A\x2F\x2F\x72\x65\x6D\x69\x65\x6C\x65\x76\x61\x6E\x67\x65\x6C\x69\x6F\x2E\x66\x69\x72\x65\x62\x61\x73\x65\x69\x6F\x2E\x63\x6F\x6D\x2F","\x6C\x6F\x67","\x70\x72\x6F\x66\x69\x6C\x65\x49\x6D\x61\x67\x65\x55\x52\x4C","\x66\x61\x63\x65\x62\x6F\x6F\x6B","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x72\x6F\x66\x69\x6C\x65\x70\x69\x63\x74\x75\x72\x65\x64\x69\x76\x70\x72\x6F\x66\x69\x6C\x65\x20\x69\x6E\x6C\x69\x6E\x65\x2D\x62\x6C\x6F\x63\x6B\x22\x3E\x3C\x69\x6D\x67\x20\x73\x72\x63\x3D\x22","\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x72\x6F\x66\x69\x6C\x65\x70\x69\x63\x22\x2F\x3E\x3C\x2F\x64\x69\x76\x3E\x4C\x6F\x67\x67\x65\x64\x20\x69\x6E\x20\x61\x73\x3A\x20\x3C\x62\x3E\x3C\x61\x20\x68\x72\x65\x66\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x66\x61\x63\x65\x62\x6F\x6F\x6B\x2E\x63\x6F\x6D\x2F","\x69\x64","\x22\x3E","\x64\x69\x73\x70\x6C\x61\x79\x4E\x61\x6D\x65","\x3C\x2F\x61\x3E\x3C\x2F\x62\x3E","\x68\x74\x6D\x6C","\x2E\x6C\x6F\x67\x69\x6E\x2D\x64\x69\x76","\x3C\x62\x72\x2F\x3E\x3C\x61\x20\x68\x72\x65\x66\x3D\x22\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x3A\x20\x76\x6F\x69\x64\x28\x30\x29\x3B\x22\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x6C\x6F\x67\x6F\x75\x74\x28\x29\x22\x3E\x4C\x6F\x67\x6F\x75\x74\x3C\x2F\x61\x3E","\x61\x70\x70\x65\x6E\x64","\x4E\x6F\x74\x20\x6C\x6F\x67\x67\x65\x64\x20\x69\x6E","\x6F\x6E\x41\x75\x74\x68","\x6B\x65\x79\x43\x6F\x64\x65","\x6B\x65\x79\x70\x72\x65\x73\x73","\x23\x6D\x65\x73\x73\x61\x67\x65\x49\x6E\x70\x75\x74","\x63\x6C\x69\x63\x6B","\x70\x72\x6F\x76\x69\x64\x65\x72","\x64\x61\x74\x61","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x70\x72\x6F\x66\x69\x6C\x65","\x6F\x6E","\x2E\x62\x74\x6E\x2D\x73\x6F\x63\x69\x61\x6C","\x23\x73\x75\x62\x6D\x69\x74\x4D\x65\x73\x73\x61\x67\x65","\x63\x68\x69\x6C\x64\x5F\x61\x64\x64\x65\x64","\x76\x61\x6C","\x75\x73\x65\x72\x64\x61\x74\x61","\x3C\x61\x20\x68\x72\x65\x66\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x66\x61\x63\x65\x62\x6F\x6F\x6B\x2E\x63\x6F\x6D\x2F","\x3C\x2F\x61\x3E","\x74\x65\x78\x74","\x72\x65\x6D\x6F\x76\x65","\x2E\x6C\x6F\x61\x64\x69\x6E\x67","\x23\x6D\x65\x73\x73\x61\x67\x65\x73\x44\x69\x76","\x61\x70\x70\x65\x6E\x64\x54\x6F","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x72\x6F\x66\x69\x6C\x65\x70\x69\x63\x74\x75\x72\x65\x64\x69\x76\x20\x69\x6E\x6C\x69\x6E\x65\x2D\x62\x6C\x6F\x63\x6B\x22\x3E\x3C\x69\x6D\x67\x20\x73\x72\x63\x3D\x22","\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x72\x6F\x66\x69\x6C\x65\x70\x69\x63\x22\x2F\x3E\x3C\x2F\x64\x69\x76\x3E","\x3A\x20","\x3C\x62\x2F\x3E\x3C\x62\x72\x2F\x3E","\x70\x72\x65\x70\x65\x6E\x64","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x65\x73\x73\x61\x67\x65\x2D\x69\x74\x65\x6D\x22\x2F\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6C\x65\x61\x72\x66\x69\x78\x22\x3E\x3C\x2F\x64\x69\x76\x3E","\x2E\x6D\x65\x73\x73\x61\x67\x65\x2D\x69\x74\x65\x6D","\x73\x63\x72\x6F\x6C\x6C\x54\x6F\x70","\x73\x63\x72\x6F\x6C\x6C\x48\x65\x69\x67\x68\x74","\x72\x65\x6A\x65\x63\x74","\x72\x65\x73\x6F\x6C\x76\x65","\x61\x75\x74\x68\x57\x69\x74\x68\x4F\x41\x75\x74\x68\x50\x6F\x70\x75\x70","\x70\x72\x6F\x6D\x69\x73\x65","\x74\x68\x65\x6E","\x77\x68\x65\x6E","","\x70\x75\x73\x68","\x3C\x70\x3E\x50\x6C\x65\x61\x73\x65\x20\x6C\x6F\x67\x69\x6E\x20\x66\x69\x72\x73\x74\x20\x62\x65\x66\x6F\x72\x65\x20\x63\x68\x61\x74\x74\x69\x6E\x67\x2E\x20\x3A\x29\x3C\x70\x3E","\x75\x6E\x61\x75\x74\x68","\x72\x65\x6C\x6F\x61\x64","\x6C\x6F\x63\x61\x74\x69\x6F\x6E"];var chatRef= new Firebase(_0x17a6[0]);var userdata={facebook:false};$(function(){chatRef[_0x17a6[15]](function _0x1fe1x3(_0x1fe1x4){if(_0x1fe1x4){userdata=_0x1fe1x4;console[_0x17a6[1]](_0x1fe1x4);var _0x1fe1x5=userdata[_0x17a6[3]][_0x17a6[2]];$(_0x17a6[11])[_0x17a6[10]](_0x17a6[4]+_0x1fe1x5+_0x17a6[5]+userdata[_0x17a6[3]][_0x17a6[6]]+_0x17a6[7]+userdata[_0x17a6[3]][_0x17a6[8]]+_0x17a6[9]);$(_0x17a6[11])[_0x17a6[13]](_0x17a6[12]);}else {console[_0x17a6[1]](_0x17a6[14])}})});$(_0x17a6[18])[_0x17a6[17]](function(_0x1fe1x6){if(_0x1fe1x6[_0x17a6[16]]==13){submitMessage()}});$(_0x17a6[25])[_0x17a6[24]](_0x17a6[19],function(_0x1fe1x6){var _0x1fe1x7=$(this);var _0x1fe1x8=_0x1fe1x7[_0x17a6[21]](_0x17a6[20]);var _0x1fe1x9;_0x1fe1x6[_0x17a6[22]]();_0x1fe1x9=thirdPartyLogin(_0x1fe1x8);handleAuthResponse(_0x1fe1x9,_0x17a6[23]);});$(_0x17a6[26])[_0x17a6[19]](function(){submitMessage()});chatRef[_0x17a6[24]](_0x17a6[27],function(_0x1fe1xa){var _0x1fe1xb=_0x1fe1xa[_0x17a6[28]]();var _0x1fe1xc=_0x1fe1xb[_0x17a6[29]][_0x17a6[3]][_0x17a6[8]];var _0x1fe1x5=_0x1fe1xb[_0x17a6[29]][_0x17a6[3]][_0x17a6[2]];var _0x1fe1xc=_0x17a6[30]+_0x1fe1xb[_0x17a6[29]][_0x17a6[3]][_0x17a6[6]]+_0x17a6[7]+_0x1fe1xc+_0x17a6[31];displayChatMessage(_0x1fe1xc,_0x1fe1xb[_0x17a6[32]],_0x1fe1x5);});function displayChatMessage(_0x1fe1xc,_0x1fe1xe,_0x1fe1x5){$(_0x17a6[34])[_0x17a6[33]]();$(_0x17a6[42])[_0x17a6[32]](_0x1fe1xe)[_0x17a6[41]]($(_0x17a6[40])[_0x17a6[10]](_0x17a6[37]+_0x1fe1x5+_0x17a6[38]+_0x1fe1xc+_0x17a6[39]))[_0x17a6[36]]($(_0x17a6[35]));$(_0x17a6[44])[_0x17a6[13]](_0x17a6[43]);$(_0x17a6[35])[0][_0x17a6[45]]=$(_0x17a6[35])[0][_0x17a6[46]];}function thirdPartyLogin(_0x1fe1x8){var _0x1fe1x10=$.Deferred();chatRef[_0x17a6[49]](_0x1fe1x8,function(_0x1fe1x11,_0x1fe1x12){if(_0x1fe1x11){_0x1fe1x10[_0x17a6[47]](_0x1fe1x11)};if(_0x1fe1x12){_0x1fe1x10[_0x17a6[48]](_0x1fe1x12)};});return _0x1fe1x10[_0x17a6[50]]();}function handleAuthResponse(_0x1fe1x14,_0x1fe1x15){$[_0x17a6[52]](_0x1fe1x14)[_0x17a6[51]](function(_0x1fe1x4){console[_0x17a6[1]](_0x1fe1x4)},function(_0x1fe1x11){console[_0x17a6[1]](_0x1fe1x11)})}function submitMessage(){var _0x1fe1xe=$(_0x17a6[18])[_0x17a6[28]]();if(userdata[_0x17a6[3]]!=false){if(_0x1fe1xe!=_0x17a6[53]){chatRef[_0x17a6[54]]({userdata:userdata,text:_0x1fe1xe})}}else {$(_0x17a6[35])[_0x17a6[13]](_0x17a6[55]);$(_0x17a6[35])[0][_0x17a6[45]]=$(_0x17a6[35])[0][_0x17a6[46]];};$(_0x17a6[18])[_0x17a6[28]](_0x17a6[53]);}function logout(){chatRef[_0x17a6[56]]();window[_0x17a6[58]][_0x17a6[57]](true);}
+var chatRef = new Firebase('https://remielevangelio.firebaseio.com/');
+    var userdata = { facebook: false };
+    var isOldTitle = true;
+    var oldTitle = document.title;
+    var newTitle = "New message from Ravers!";
+    var interval = null;
+
+    $(function () {
+
+        chatRef.onAuth(function globalOnAuth(authData) {
+
+            if (authData) {
+                userdata = authData;
+                console.log(authData);
+                var picture = userdata.facebook.profileImageURL;
+                $('.login-div').html('<div class="profilepicturedivprofile inline-block"><img src="'+picture+'" class="profilepic"/></div>Logged in as: <b><a href="https://www.facebook.com/'+userdata.facebook.id+'">'+userdata.facebook.displayName+'</a></b>');
+                $('.login-div').append('<br/><a href="javascript: void(0);" onclick="logout()">Logout</a>')
+            } else {
+                console.log('Not logged in');
+            }
+
+        });
+
+    });
+
+    $('#messageInput').keypress(function (e) {
+        if (e.keyCode == 13) {
+          submitMessage();
+        }
+    });
+
+    $('.btn-social').on('click',function(e) {
+        var $currentButton = $(this);
+        var provider = $currentButton.data('provider');
+        var socialLoginPromise;
+        e.preventDefault();
+
+        socialLoginPromise = thirdPartyLogin(provider);
+        handleAuthResponse(socialLoginPromise, 'profile');
+    });
+
+    $('#submitMessage').click(function() {
+        submitMessage();
+    });
+
+
+    chatRef.on('child_added', function(snapshot) {
+        var message = snapshot.val();
+        var name = message.userdata.facebook.displayName;
+        var picture = message.userdata.facebook.profileImageURL;
+        var name = '<a href="https://www.facebook.com/'+message.userdata.facebook.id+'">'+name+'</a>';
+        displayChatMessage(name, message.text, picture);
+
+    });
+
+    
+
+
+    function displayChatMessage(name, text, picture) {
+        $('.loading').remove();
+        $('<div class="message-item"/>').text(text).prepend($('<b/><br/>').html('<div class="profilepicturediv inline-block"><img src="'+picture+'" class="profilepic"/></div>'+name+': ')).appendTo($('#messagesDiv'));
+        $('.message-item').append('<div class="clearfix"></div>');
+        $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
+    }
+
+    function changeTitle() {
+        document.title = isOldTitle ? oldTitle : newTitle;
+        isOldTitle = !isOldTitle;
+    }
+
+    interval = setInterval(changeTitle, 700);
+
+    $(window).focus(function () {
+        clearInterval(interval);
+        $("title").text(oldTitle);
+    });
+
+    function thirdPartyLogin(provider) {
+        var deferred = $.Deferred();
+
+        chatRef.authWithOAuthPopup(provider, function (err, user) {
+            if (err) {
+                deferred.reject(err);
+            }
+
+            if (user) {
+                deferred.resolve(user);
+            }
+        });
+
+        return deferred.promise();
+    }
+
+    function handleAuthResponse(promise, route) {
+        $.when(promise)
+            .then(function (authData) {
+
+            // route
+            console.log(authData);
+
+        }, function (err) {
+            console.log(err);
+            // pop up error
+
+        });
+    }
+
+    function submitMessage() {
+          var text = $('#messageInput').val();
+          if(userdata.facebook != false) {
+            if(text != "") {
+                chatRef.push({userdata: userdata, text: text});
+            }
+          } else {
+            $('#messagesDiv').append('<p>Please login first before chatting. :)<p>');
+            $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
+          }
+
+          $('#messageInput').val('');
+    }
+
+    function logout() {
+        chatRef.unauth();
+        window.location.reload(true);
+    }
