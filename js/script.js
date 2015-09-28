@@ -24,7 +24,7 @@ var chatRef = new Firebase('https://remielevangelio.firebaseio.com/');
         }
     });
 
-	$('a.btn-social').click(function(e) {
+	$('.btn-social').on('click',function(e) {
 		var $currentButton = $(this);
         var provider = $currentButton.data('provider');
         var socialLoginPromise;
